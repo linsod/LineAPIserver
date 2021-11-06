@@ -22,9 +22,9 @@ Because create a process of the LineBot need the authorization, we need to get t
 <img src="pic/token.jpg" width="600" /><br>
 
 ## STEP 2： Write a linbot request【Python】
-The ```@app.route``` is the webiste location<br>
+In the code the ```@app.route``` is relate about the webiste location.<br>
+```@app.route("/callback", methods=['POST'])``` can check token/channel from the server.<br>
 And the whole code is on ```app.py```<br><br>
-First, create a account and sign in.<br>
 <img src="/pic/line_user.jpg" width="600" /><br>
 
 Seocnd, create a new project<br>

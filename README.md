@@ -11,17 +11,18 @@ Since there is many earthquake in Taiwan
 if we need to quickly to know the information of eqrthquake
 this process can know information from official
 ```
-1. Get Messaging API from 【Line Developers】
-2. Write a linbot request in 【Python】
+1. Get Messaging API from channel token【Line Developers】
+2. Write a linbot request【Python】
 3. Get a free website server and domainfrom 【Heroku】 
 ```
 
-## STEP 1： get Messaging API from 【Line Developers】
-Since HTML only provide a interface to display thoe code, it needs Javascript to make the program works.<br>
-The whole code is on ```cal_v2.html```<br><br>
-<img src="pic/line_user.jpg" width="600" /><br>
+## STEP 1： Get Messaging API from and channel token【Line Developers】
+Because create a process of the LineBot need the authorization, we need to get the token and something else form Line Developers.<br>
+And the whole code is on ```app.py```<br><br>
+<img src="pic/serect.jpg" width="600" /><br>
+<img src="pic/token.jpg" width="600" /><br>
 
-## STEP 2： write a linbot request in 【Python】
+## STEP 2： Write a linbot request【Python】
 <b>000webhost</b> provide a free website server that you can pop code or even data library on it.<br><br>
 First, create a account and sign in.<br>
 <img src="/pic/000webhost1.png" width="600" /><br>
@@ -40,7 +41,7 @@ Fourth, go：Tools/Set Web Address to **Park domain**<br>
 Type the Domain name.<br>
 
 
-## STEP 3： get a free website server and domainfrom 【Heroku】
+## STEP 3： Get a free website server and domainfrom 【Heroku】
 <b>Freenom</b> provide a free website domain such as ```.ga``` or ```.tk```  ...<br>
 
 First,  create a account and sign in.<br>

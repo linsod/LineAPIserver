@@ -5,6 +5,9 @@
 Create a account with Line 
 Create a account with Heroku(free) 
 ```
+## STEP 1： Create a Heroku project
+
+1. Login to Heroku, in the Heroku page，點選 New -> Create New App
 
 ## The main idea
 Since there is many earthquake in Taiwan

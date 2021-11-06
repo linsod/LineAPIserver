@@ -17,15 +17,15 @@ this process can know information from official
 ```
 
 ## STEP 1： Get Messaging API from and channel token【Line Developers】
-Because create a process of the LineBot need the authorization, we need to get the token and something else form Line Developers.<br>
-And the whole code is on ```app.py```<br><br>
-<img src="pic/serect.jpg" width="600" /><br>
+Because create a process of the LineBot need the authorization, we need to get the token and something else form Line Developers.<br><br>
+<img src="pic/secret.jpg" width="600" /><br>
 <img src="pic/token.jpg" width="600" /><br>
 
 ## STEP 2： Write a linbot request【Python】
-<b>000webhost</b> provide a free website server that you can pop code or even data library on it.<br><br>
+The ```@app.route``` is the webiste location<br>
+And the whole code is on ```app.py```<br><br>
 First, create a account and sign in.<br>
-<img src="/pic/000webhost1.png" width="600" /><br>
+<img src="/pic/line_user.jpg" width="600" /><br>
 
 Seocnd, create a new project<br>
 
@@ -42,7 +42,7 @@ Type the Domain name.<br>
 
 
 ## STEP 3： Get a free website server and domainfrom 【Heroku】
-<b>Freenom</b> provide a free website domain such as ```.ga``` or ```.tk```  ...<br>
+<b>Heroku</b> provide a free website domain and some API just in Heroku ...<br>
 
 First,  create a account and sign in.<br>
 <img src="/pic/freenom1.png" width="600" /><br>

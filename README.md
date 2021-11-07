@@ -46,6 +46,7 @@ therefore the **Procfile** will wirte like this.<br><br>
 Talk the **Heroku** need to install what kits.
 Heroku provides server is this program where it actually runs,
 and in this project need the install kits are<br><br>
+
 ```
 flask
 gunicorn
@@ -62,4 +63,18 @@ SO there didn't to write in this project.<br><br>
 Seocnd, push the folder to **Heroku**<br>
 
 The first push need to wirte like this<br>
-```heroku git:remote -a your-app-name```
+```
+heroku git:remote -a your-app-name
+git add .
+git commit -m "xxxx"
+push
+```
+And in the feature,
+if need to push this folder to **Heroku**
+only need to write
+```
+git add .
+git commit -m "xxxx"
+push
+```
+The whole can see in the ```app.py```.<br><br>

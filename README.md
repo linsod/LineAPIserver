@@ -7,7 +7,9 @@ Create a account with Heroku(free)
 ```
 ## STEP 1： Create a Heroku project
 
-1. Login to Heroku, in the Heroku page，點選 New -> Create New App
+Login to Heroku, in the Heroku page，select New -> Create New App<br>
+then the project can be created.<br><br>
+<img src="pic/create_app.png" width="600" /><br>
 
 ## The main idea
 Since there is many earthquake in Taiwan
